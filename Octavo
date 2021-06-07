@@ -1,0 +1,12 @@
+Inicio
+	var numero, aux1,aux2
+	var opcion
+	mientras(opcion!= S)
+	numero=aleatorio()*1000
+	si(numero%5==0)
+		mostrar(El numero es "numero")
+	escribir "Precione S si quiere salir"
+	leer(opcion)
+	finMientras
+
+Fin
